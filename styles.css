@@ -62,7 +62,16 @@ container-nav {
     display: none;
   }
   .img-container {
+    display: flex;
    flex-direction: column;
+   width: 150px;
+   height: 150px;
+   align-items: auto;
+   margin: 20px;
+
+  }
+  .greeting {
+    text-align: center;
   }
 
   .video-container{
