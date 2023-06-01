@@ -1,5 +1,5 @@
 function showAlert() { 
-    alert("¡Hola, esta es una alerta desde javascript!")
+    alert("¡Hola, estas en la mejor pagina del mundo!")
 }
 document.querySelector("button.button-menu-toggle")
     .addEventListener("click", function() {

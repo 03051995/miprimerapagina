@@ -1,5 +1,5 @@
 body {
-    background-color: lightblue;
+    background-color: rgb(24, 201, 201);
     color: darkblue;
 }
 
@@ -10,10 +10,14 @@ h1 {
 }
 
 p {
+  text-align: center;
     font-family: Georgia, serif;
-    font-size: 18px;
+    font-size: 20px;
     padding: 10px;
     margin: 20px;
+}
+h2 {
+  text-align: center;
 }
 container-nav {
     display: flex;
@@ -63,21 +67,19 @@ container-nav {
   }
   .img-container {
     display: flex;
-   flex-direction: column;
-   width: 150px;
-   height: 150px;
-   align-items: auto;
-   margin: 20px;
-
-  }
-  .greeting {
-    text-align: center;
-  }
+    flex-direction: center;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+}
 
   .video-container{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: center;
+    align-items: auto;
     gap: 50px;
     padding: 50px;
   }
@@ -90,6 +92,9 @@ container-nav {
     min-height: 200px;
     text-align: center;
 
+  }
+  .greeting {
+    text-align: center;
   }
   @media (max-width: 768px) {
     .column {
